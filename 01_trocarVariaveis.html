@@ -8,10 +8,13 @@
     //ENTRADA
     let numeroUm = Number(prompt(`Informe um número inteiro: `));
     let numeroDois = Number(prompt(`Informe outro número inteiro: `));
+    alert(`Seus números antes da troca são: ${numeroUm} e ${numeroDois}`);
 
     //PROCESSAMENTO
-    numeroUm 
+    let salvarNumero = numeroUm;
+    numeroUm = numeroDois;
+    numeroDois = salvarNumero;
 
     //SAÍDA
-
+    alert(`Os números depois da troca são: ${numeroUm} e ${numeroDois}`);
 </script>
