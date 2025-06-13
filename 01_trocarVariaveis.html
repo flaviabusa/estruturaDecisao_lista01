@@ -6,15 +6,16 @@
     */
 
     //ENTRADA
-    let numeroUm = Number(prompt(`Informe um número inteiro: `));
-    let numeroDois = Number(prompt(`Informe outro número inteiro: `));
-    alert(`Seus números antes da troca são: ${numeroUm} e ${numeroDois}`);
+    let valorUm = Number(prompt(`Informe um número inteiro:`));
+    let valorDois = Number(prompt(`Informe outro número inteiro:`));
+    alert(`Seus números antes da troca são ${valorUm} e ${valorDois}`);
 
     //PROCESSAMENTO
-    let salvarNumero = numeroUm;
-    numeroUm = numeroDois;
-    numeroDois = salvarNumero;
+    let salvarNumero = valorUm
+    valorUm = valorDois
+    valorDois = salvarNumero
 
     //SAÍDA
-    alert(`Os números depois da troca são: ${numeroUm} e ${numeroDois}`);
+    alert(`Seus números depois da troca são ${valorUm} e ${valorDois}`)
+ 
 </script>
